@@ -1,0 +1,18 @@
+Write a Python script using Selenium to scrape data from the NATRUE website 
+(https://natrue.org/our-standard/natrue-certified-world/) and extract the following:
+
+1️⃣ Products with all details:
+   - Name, Certification Levels, Brand, Category, Manufacturer, Description.
+
+2️⃣ Raw Materials with all details (available in Excel format):
+   - Name, Manufacturer, Composition, INCI, Status, Expiration Date.
+
+3️⃣ Brands with all details:
+   - Name, Description.
+
+Requirements:
+✅ The script should handle pagination and scrape all items.  
+✅ Click modals when needed to extract additional details.  
+✅ Store the scraped data in JSON format and *upload to Google Sheets.  
+✅ Implement error handling for missing elements or website changes.  
+✅ Ensure the script is efficient and minimizes unnecessary page loads.  

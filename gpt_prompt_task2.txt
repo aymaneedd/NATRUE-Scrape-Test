@@ -1,0 +1,18 @@
+Write a Python script to process raw material data extracted from the NATRUE website and structure it similarly to the material pages on CommonShare (e.g., Alpaca: https://www.commonshare.com/materials/alpaca).
+
+Requirements:
+✅ Extract all individual raw materials from the INCI field.  
+✅ Ensure each material is structured like a CommonShare material page with sections:
+   - **Overview (Description)**
+   - **History**
+   - **Applications & Uses**
+   - **Manufacturing Process**
+   - **Certifications & Standards**
+   - **Manufacturer & Country of Origin**
+   - **Scientific & Environmental Properties**
+   - **Brands Using This Material**
+   - **Manufacturers Producing This Material**  
+✅ Ensure standards and countries are 100% correct using:
+   - Manufacturer-country mapping from the scraped brands dataset.
+   - Verification of certifications and expiration data.
+✅ Store each material as a separate document in docx document.
